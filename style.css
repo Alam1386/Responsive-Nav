@@ -1,0 +1,27 @@
+* html{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+body{
+  background-color: teal;
+}
+.nav-bar {
+
+}
+.nav-links {
+
+}
+.nav-links ul{
+  display: flex;
+  flex-direction: row;
+}
+.nav-links ul li{
+  list-style: none;
+  padding: 1rem; 
+}
+.nav-links ul li a{
+  color: #ddd;
+  text-decoration: none;
+  font-size: 25px;
+}
