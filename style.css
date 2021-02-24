@@ -6,7 +6,12 @@ body{
   padding: 0; 
   background-color: teal;
 }
+.header{
+  position: fixed;
+  width: 100%;
+}
 .nav-bar {
+  padding: 10px;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -16,6 +21,7 @@ body{
   background-color: #000;
   /* padding: 10px 30px; */
 }
+
 .logo{
   color: #ddd;
   text-transform: uppercase;
@@ -89,4 +95,16 @@ body{
   .nav-links.active {
     display: flex;
   }
+}
+.text{
+  padding: 100px;
+  color: wheat;
+}
+.text h1{
+  font-size: 50px;
+  letter-spacing: 0.3rem;
+}
+.text p{
+  font-size: 24px;
+  letter-spacing: 0.1rem;
 }
